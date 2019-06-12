@@ -9,7 +9,6 @@ header h1 {
     background-color: #4aaaa5;
     color: white;
     display: inline-block;
-    padding: 20px;
 }
 
 header {
@@ -23,11 +22,11 @@ header {
 
 body {
     margin: 0;
-    background-color: lightslategray;
+    background-color: lightslategrey;
 }
 
 #top-nav-bars {
-    color: grey;
+    color: 4aaaa5;
     display: inline-block;
     float: right;
     padding: 20px;
@@ -35,7 +34,7 @@ body {
 
 a {
     text-decoration: none;
-    color: grey;
+    color: #4aaaa5;
     margin-left: 20px;
     border-right: 1px solid #4aaaa5;
     padding-right: 20px;
@@ -48,23 +47,28 @@ a:last-of-type {
 
 #summary {
     width: 960px;
-    margin: auto;
+    /* margin-top: 5px; */
     background-color: white;
-    padding: 50px;
-    margin-top: 20px;
-    border: 1px solid #cccccc;
+    padding: 100px;
+    margin: auto;
+    margin-top: 30px;
+    border: 2px solid #cccccc;
 }
 
 h1 {
     color: #4aaaa5;
-}
-
-p {
-    border-top: 1px solid #4aaaa5;
-    padding-top: 20px;
-    line-height: 30px;
+    /* margin-top: 30px; */
 }
 
 #bio-image {
     float: left;
+    margin-right: 20px;
+}
+
+p {
+    clear: both;
+    border-top: 1px solid #4aaaa5;
+    padding-top: 20px;
+    line-height: 30px;
+    margin-right: 40px;
 }
