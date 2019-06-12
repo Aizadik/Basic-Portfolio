@@ -47,17 +47,17 @@ a:last-of-type {
 
 #summary {
     width: 960px;
-    /* margin-top: 5px; */
     background-color: white;
-    padding: 100px;
     margin: auto;
     margin-top: 30px;
     border: 2px solid #cccccc;
+    padding-bottom: 200px;
+    padding-left: 20px;
 }
 
 h1 {
     color: #4aaaa5;
-    /* margin-top: 30px; */
+    margin: 20px auto 20px auto;
 }
 
 #bio-image {
