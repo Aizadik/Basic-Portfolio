@@ -163,7 +163,9 @@ form input[type='submit'] {
     margin-bottom: 80px;
 }
 
-div img {}
+div img {
+    border: 2px solid #4aaaa5;
+}
 
 .stripe {
     background-color: #4aaaa5;
@@ -174,6 +176,8 @@ div img {}
     width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
+    text-align: center;
+    color: white;
 }
 
 .image-wrapper {
