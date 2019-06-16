@@ -42,12 +42,14 @@ a {
     color: #4aaaa5;
     margin-left: 20px;
     border-right: 1px solid #4aaaa5;
-    padding-right: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 a:hover {
     background-color: #cccccc;
     border-radius: 25px;
+    text-align: center;
 }
 
 a:last-of-type {
